@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Tassometro
+comment0.text=\r\n\ Un\ tassometro\r\n\ Gestisce\ le\ tasse\ in\ base\ a\ tre\ soglie\r\n\ \r\n\ Sotto\ la\ prima\ soglia\ bisogna\ pagare\ il\ 10%\ delle\ tasse\ \r\n\ Tra\ la\ prima\ soglia\ e\ la\ seconda\ bisogna\ pagare\ il\ 26%\ di\ reddito\ -\ prima\ soglia\r\n\ Oltre\ la\ terza\ si\ aggiunge\ il\ 35%\ di\ reddito\ -\ seconda\ soglia\r\n\ \r\n\ @author\ Greta\ Maria\ Brugnatti\r\n@version\ 3/11/2024
+comment1.params=soglia1\ soglia2\ soglia3
+comment1.target=Tassometro(int,\ int,\ int)
+comment1.text=\r\n\ Costruttore\ dell'oggetto\ Tassometro\ date\ le\ soglie\r\n\ Di\ default\ le\ aliquote\ sono\ quelle\ scritte\ nella\ descrizione\ della\ classe\r\n\ \r\n\ @param\ soglia1\ Prima\ soglia\r\n\ @param\ soglia2\ Seconda\ soglia\r\n\ @param\ soglia3\ Terza\ soglia\r\n
+comment2.params=soglia1\ soglia2\ soglia3\ aliquota1\ aliquota2\ aliquota3
+comment2.target=Tassometro(int,\ int,\ int,\ int,\ int,\ int)
+comment2.text=\r\n\ Costruttore\ dell'oggetto\ Tassometro\ date\ le\ soglie\ e\ le\ aliquote\r\n\ \r\n\ @param\ soglia1\ Prima\ soglia\r\n\ @param\ soglia2\ Seconda\ soglia\r\n\ @param\ soglia3\ Terza\ soglia\r\n\ \r\n\ @param\ aliquota1\ Prima\ aliquota\ in\ percentuale\r\n\ @param\ aliquota2\ Seconda\ aliquota\ in\ percentuale\r\n\ @param\ aliquota3\ Terza\ aliquota\ in\ percentuale\r\n
+comment3.params=importo
+comment3.target=float\ getTasse(float)
+comment3.text=\r\n\ Calcola\ le\ tasse\ da\ pagare\ \r\n\ \r\n\ @param\ importo\ \ Importo\ su\ cui\ applicare\ le\ tasse\r\n\ @return\ \ \ \ \ \ \ \ \ Ritorna\ le\ tasse\ da\ pagare\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=a
+comment5.target=int\ getSoglia(int)
+comment5.text=\r\n\ Data\ il\ numero\ restituisce\ la\ soglia\r\n\ \r\n\ @param\ a\ Numero\ compreso\ tra\ 1\ e\ 3\r\n\ @return\ Soglia\r\n
+comment6.params=soglia\ a
+comment6.target=void\ setSoglia(int,\ int)
+comment6.text=\r\n\ Cambia\ la\ soglia\ desiderata\r\n\ \r\n\ @param\ soglia\ \ \ \ Nuovo\ valore\ della\ soglia\ \r\n\ @param\ a\ \ \ \ \ \ \ \ \ Quale\ soglia,\ numero\ compreso\ tra\ 1\ e\ 3\r\n\ \r\n
+numComments=7
